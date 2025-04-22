@@ -10,8 +10,12 @@ public class Encuesta {
         
         //Realizar una encuesta y convertir los datos
         Scanner ConsoleInput = new Scanner(System.in);
-        System.out.println("Prueba");
         System.out.println("Bienvenid@. Por favor, diligencie la siguiente encuesta:");
+        System.out.println("Ingrese su nombre:");
+        String Nombre = ConsoleInput.nextLine();
+        System.out.println("Ingrese su edad");
+        String Edad = ConsoleInput.nextLine();
+        System.out.println("Su nombre es:"+Nombre+"Y su edad es:"+Edad);
     }
     
 }
