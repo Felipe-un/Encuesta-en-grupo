@@ -27,6 +27,7 @@ public class Encuesta {
                     " es: " +j.hashCode());  
             
         //Buenas Felipe.
+        //Como te va?
     }
     }
     
