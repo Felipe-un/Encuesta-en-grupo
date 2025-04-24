@@ -31,6 +31,7 @@ public class Encuesta {
         //Todo bien, sufriendo con Calculo Integral
         //COn Chadid se sufre un poco siempre :)
         //QUe tal algebra lineal?  A mi me encanta
+        //Ando chateando desde visual studio.
     }
     }
     
