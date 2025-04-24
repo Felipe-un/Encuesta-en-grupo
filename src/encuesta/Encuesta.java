@@ -30,6 +30,7 @@ public class Encuesta {
         //Como te va?
         //Todo bien, sufriendo con Calculo Integral
         //COn Chadid se sufre un poco siempre :)
+        //QUe tal algebra lineal?  A mi me encanta
     }
     }
     
