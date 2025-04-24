@@ -24,8 +24,9 @@ public class Encuesta {
         for (int i = 0;i<lenghtNombre; i = i+1){
             j = charNombre[i];
             System.out.println("El codigo ASCII del caracter "+charNombre[i]+ 
-                    " es: " +j.hashCode());
-             
+                    " es: " +j.hashCode());  
+            
+        //Buenas Felipe 
     }
     }
     
