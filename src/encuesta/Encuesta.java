@@ -9,9 +9,10 @@ public class Encuesta {
     public static void main(String[] args) {
         
         // Hola
-        
-        //Realizar una encuesta y convertir los datos
         Scanner ConsoleInput = new Scanner(System.in);
+        /*
+        //Realizar una encuesta y convertir los datos
+        
         System.out.println("Bienvenid@. Por favor, diligencie la siguiente encuesta:");
         System.out.println("Ingrese su nombre:");
         String Nombre = ConsoleInput.nextLine();
@@ -24,15 +25,26 @@ public class Encuesta {
         for (int i = 0;i<lenghtNombre; i = i+1){
             j = charNombre[i];
             System.out.println("El codigo ASCII del caracter "+charNombre[i]+ 
-                    " es: " +j.hashCode());  
-            
+                    " es: " +j.hashCode()); 
+        }
+            */
         //Buenas Felipe.
         //Como te va?
         //Todo bien, sufriendo con Calculo Integral
         //COn Chadid se sufre un poco siempre :)
         //QUe tal algebra lineal?  A mi me encanta
         //Ando chateando desde visual studio.
+
+        //Operación factorial.
+
+        System.out.println("Por favor, ingrese un número entero "
+                + "para calcular su factorial:");
+        int numfact = ConsoleInput.nextInt();
+        int fact = 1;
+        for (int i = 1; i<=numfact ;i=i+1){
+            fact=fact*i;
+        }
+        System.out.println(fact);
+         
     }
-    }
-    
 }
