@@ -26,7 +26,7 @@ public class Encuesta {
             System.out.println("El codigo ASCII del caracter "+charNombre[i]+ 
                     " es: " +j.hashCode());  
             
-        //Buenas Felipe 
+        //Buenas Felipe.
     }
     }
     
