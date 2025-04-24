@@ -15,7 +15,16 @@ public class Encuesta {
         String Nombre = ConsoleInput.nextLine();
         System.out.println("Ingrese su edad");
         String Edad = ConsoleInput.nextLine();
-        System.out.println("Su nombre es:"+Nombre+"Y su edad es:"+Edad);
+        System.out.println("Su nombre es: "+Nombre+" Y su edad es:"+Edad);
+        int lenghtNombre = Nombre.length();
+        char[] charNombre = Nombre.toCharArray();
+        Character j;
+        for (int i = 0;i<lenghtNombre; i = i+1){
+            j = charNombre[i];
+            System.out.println("El codigo ASCII del caracter "+charNombre[i]+ 
+                    " es: " +j.hashCode());
+             
+    }
     }
     
 }
